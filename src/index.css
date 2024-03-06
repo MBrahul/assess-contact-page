@@ -1,13 +1,66 @@
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: rgba(255,255,255,255);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font-main{
+  font-family: "Raleway", sans-serif;
+}
+
+.logo{
+  font-size: 22px !important;
+  font-weight: 600;
+}
+
+.navbar-list-item a{
+  padding: 0 10px;
+  font-size: 19px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.navbar-list-item:hover a{
+  color: #1b84fc;
+}
+
+.navbar-list-item .act{
+ color: #1b84fc;
+}
+
+
+/* form style  */
+
+form input , textarea{
+  padding: 17px !important;
+  border-radius: 14px !important ;
+  border: 1px solid black !important;
+  font-weight: 300 !important;
+  /* width: auto; */
+}
+
+form input::placeholder , form textarea::placeholder{
+  font-weight: lighter;
+}
+
+.error-span{
+  color: red;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 0 10px;
+}
+
+.img-section img{
+  /* height: 100%; */
+  width: 100%;
+}
+
+.submit-btn{
+  padding: 8px 19px !important;
+  border-radius: 20px;
+  font-family: "Raleway", sans-serif;
 }
